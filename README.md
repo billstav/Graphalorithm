@@ -1,0 +1,4 @@
+Graphalorithm
+=============
+
+Graph Algorithm is an algorithm dedicated for interrogating and training signaling networks (represented as interaction graphs) with experimental data from stimulus - response experiments. Graph Algorithm uses Floyd - Warshall algorithm and custom Breadth - First algorithm. Given an interaction graph topology (stored in a file Network Generic) and a set of experiments in each of which some nodes were perturbed (defined in a file stimuli ) and the resulting qualitative response (activated or unchanged) of some nodes were measured (defined in a file signal ) and a matrix of experimental values between the respective stimuli and signals (defined in a file phosphos), we address the basic problem of determining a sub-graph of the given network topology that can fit the measurements for a set of scenarios the best way possible.
